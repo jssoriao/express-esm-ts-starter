@@ -4,6 +4,9 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "allowJs": true,
+
+    // `allowJs` will prompt an error that goes like "Cannot write file ... because it would overwrite input ...".
+    // To fix the error, provide an `outDir` here and copy this value in the `exclude` field.
     "outDir": "./dist",
 
     /* TSX respected properties */
