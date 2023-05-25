@@ -16,5 +16,5 @@
     }
   },
   "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.mts", "src/**/*.mjs"],
-  "exclude": ["tests", "src/public/"]
+  "exclude": ["test/", "src/public/"]
 }
