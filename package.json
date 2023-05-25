@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node --loader esm-module-alias/loader --experimental-specifier-resolution=node ./dist -e production",
     "build": "node --experimental-specifier-resolution=node ./build.js",
-    "dev": "tsx watch --clear-screen=false ./src",
+    "dev": "node --loader tsx --watch --watch-preserve-output ./src",
     "test": "mocha"
   },
   "aliases": {
